@@ -246,6 +246,11 @@ li.registrar a:hover {
     text-align: center;
 }
 
+.pilar p{
+    margin-top: 16px;
+    font-weight: 500;
+}
+
 .box-pilar{
     font-size: 32px;
     padding: 16px 20px;
@@ -253,3 +258,15 @@ li.registrar a:hover {
     box-shadow: 0px 4px 15px #00000033;
 }
 
+
+
+
+span.laranja{
+    background-color: #ff8800;
+}
+span.azul{
+    background-color: #0088ae;
+}
+span.roxo{
+    background-color: #a944ff;
+}

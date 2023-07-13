@@ -21,17 +21,17 @@ html {
 
 }
 
-.titulo{
+.titulo {
     font-size: 48px;
     font-weight: 700;
-    line-height:2.5rem;
+    line-height: 2.5rem;
     color: #33303E;
 }
 
-.descricao{
+.descricao {
     font-size: 24px;
     font-weight: 500;
-    line-height:2.5rem;
+    line-height: 2.5rem;
     color: #4e4b59;
 
 }
@@ -41,7 +41,7 @@ html {
     align-items: center;
     justify-content: space-between; */
     padding: 32px 0px;
-    box-shadow: 0px 0px  2px#000000;
+    box-shadow: 0px 0px 2px#000000;
 
 }
 
@@ -72,25 +72,26 @@ html {
 
 }
 
- li.registrar a{
+li.registrar a {
     color: #ff6e22;
 }
-li.registrar a:hover{
+
+li.registrar a:hover {
     color: #ff6e22;
     font-size: 1.5rem;
     padding: 0 10px;
     transition: 0.5s ease;
-    
+
 }
 
 /*Corpo principal*/
 
-.corpo{
+.corpo {
     padding-top: 48px;
     padding-bottom: 48px;
 }
 
-.painel-principal{
+.painel-principal {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -100,7 +101,7 @@ li.registrar a:hover{
     margin-bottom: 128px;
 }
 
-.anuncio-petz{
+.anuncio-petz {
     width: 50%;
 
     display: flex;
@@ -109,36 +110,39 @@ li.registrar a:hover{
     gap: 30px;
 }
 
-.botao-principal{
+.botao-principal {
     font-size: 19px;
-    font-family: 'Mochiy Pop One',sans-serif;
+    font-family: 'Mochiy Pop One', sans-serif;
     padding: 16px 32px;
     background-color: #ff950d;
     color: #f5f5f5;
     border-radius: 10px;
     border: 1px solid #f5f5f5;
     cursor: pointer;
-    
+
 }
-.imagens-petz{
+
+.imagens-petz {
     display: flex;
     flex-direction: row;
     gap: 30px;
 
 }
 
-.fotos-da-esquerda, .fotos-da-direita{
+.fotos-da-esquerda,
+.fotos-da-direita {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.fotos-da-esquerda img{
+.fotos-da-esquerda img {
     width: 10vw;
     border-radius: 8px;
 
 }
-.fotos-da-direita img{
+
+.fotos-da-direita img {
     width: 22vw;
     border-radius: 8px;
 
@@ -146,30 +150,31 @@ li.registrar a:hover{
 
 /* Seção de Perfil*/
 
-.tipos-perfil{
+.tipos-perfil {
     padding-top: 48px;
     padding-bottom: 48px;
     background-color: #ff880026;
     display: flex;
     flex-direction: column;
     align-items: center;
-   
+
 }
 
-.tipos-perfil h2{
+.tipos-perfil h2 {
     width: 52%;
     text-align: center;
 }
-.cards-container{
+
+.cards-container {
     width: 70%;
     margin-top: 48px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-   
+
 }
 
-.card-de-perfil{
+.card-de-perfil {
     width: 28vw;
     padding: 32px;
     border-radius: 10px;
@@ -181,11 +186,11 @@ li.registrar a:hover{
     justify-content: space-between;
 }
 
-.card-de-perfil img{
+.card-de-perfil img {
     width: 16vw;
 }
 
-.conteudo-card{
+.conteudo-card {
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -193,15 +198,58 @@ li.registrar a:hover{
     justify-content: space-between;
 }
 
-.link-card{
+.link-card {
     font-size: 22px;
     font-weight: 600;
     text-decoration: underline;
     margin-top: 16px;
     color: #0088ae;
 }
-.link-roxo{
-    color:#a944ff;
+
+.link-roxo {
+    color: #a944ff;
 }
 
+/*Seção pilares*/
+
+
+.valores-da-plataforma {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sobre-os-valores {
+    width: 50%;
+}
+
+.valores-topicos{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.coluna-valores{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pilar{
+    margin: 32px;
+
+    text-align: center;
+}
+
+.box-pilar{
+    font-size: 32px;
+    padding: 16px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px #00000033;
+}
 

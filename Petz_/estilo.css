@@ -24,7 +24,7 @@ html {
 .titulo {
     font-size: 48px;
     font-weight: 700;
-    line-height: 2.5rem;
+    line-height: 4rem;
     color: #33303E;
 }
 
@@ -225,14 +225,18 @@ li.registrar a:hover {
     width: 50%;
 }
 
-.valores-topicos{
+.sobre-os-valores p {
+    margin-top: 30px;
+}
+
+.valores-topicos {
     width: 50%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
-.coluna-valores{
+.coluna-valores {
     padding-top: 24px;
     padding-bottom: 24px;
     display: flex;
@@ -240,33 +244,76 @@ li.registrar a:hover {
     justify-content: space-between;
 }
 
-.pilar{
+.pilar {
     margin: 32px;
 
     text-align: center;
 }
 
-.pilar p{
+.pilar p {
     margin-top: 16px;
     font-weight: 500;
 }
 
-.box-pilar{
+.box-pilar {
     font-size: 32px;
     padding: 16px 20px;
     border-radius: 10px;
     box-shadow: 0px 4px 15px #00000033;
+    color: #f5f5f5;
 }
 
 
 
 
-span.laranja{
+span.laranja {
     background-color: #ff8800;
 }
-span.azul{
+
+span.azul {
     background-color: #0088ae;
 }
-span.roxo{
+
+span.roxo {
     background-color: #a944ff;
+}
+
+/* Rodape */
+
+.rodape {
+    background-color: #0088ae;
+}
+
+.conteudo-rodape {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.redes-sociais {
+    display: flex;
+    flex-direction: row;
+    gap: 0px 8px;
+    align-items: center;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+.redes-sociais p,
+i {
+    color: #f5f5f5;
+}
+
+.copyright {
+    color: #f5f5f5;
+    text-align: center;
+    padding-bottom: 16px;
 }
